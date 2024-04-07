@@ -1,29 +1,27 @@
 .tolbar {
   display: flex;
+  padding-left: 300px;
+}
+.tolbar img {
+  margin: 10px 0px 0px 30px;
+}
+.right-menu {
+  border-right: 1px solid black;
 
   position: fixed;
-  width: 100%;
   left: 0;
 }
-.geral {
-  display: flex;
-  padding-left: 330px;
-}
 
-.left-menu img {
-  padding: 0px 0px 10px 30px;
-}
-.left-menu {
-  border-right: 1px solid black;
-}
 .slaca {
   //titulo canto superior esquerdo
-  width: 220px;
+  width: 275px;
   height: 68px;
   background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
   color: white;
-  padding: 40px 0px 0px 110px;
+  padding: 40px 0px 0px 40px;
+  margin-left: 0px;
 }
+
 .sheets {
   // Menu centro esquerdo
   width: 230px;
@@ -32,19 +30,22 @@
   cursor: pointer;
 }
 .sheets li {
+  // menu a esquerda
   border-radius: 3px;
   border: 1px solid rgba(25, 25, 25, 0.474);
-  margin: 5px 0px 0px 10px;
+  margin: 5px 0px 0px 0px;
   padding-left: 30px;
   height: 40px;
   list-style-type: none;
 }
 
 .rodape {
+  // texto rodape( anais do simpso latino
   background: #fdf1eb;
   color: #725c5c;
   height: 1px;
-  padding: 20px 0px 90px 0px;
+  padding: 20px 0px 90px 20px;
+  margin-left: 14px;
 }
 
 .Language {
@@ -52,15 +53,16 @@
   display: flex;
   background: #fdf1eb;
   color: #725c5c;
-  height: 20px;
-  padding: 30px 0px 61px 0px;
+  height: 30px;
+  padding: 20px 0px 61px 0px;
+  align-items: center;
 }
 .Language select {
   //Idioma
   height: 20px;
   background: #fdf1eb;
   border: none;
-  box-shadow: 1px 1px 10px rgba(83, 77, 58, 0.413);
+  box-shadow: 1px 3px 8px 5px rgba(83, 77, 58, 0.413);
   cursor: pointer;
 }
 
@@ -74,12 +76,13 @@
   //area do tituulo,video
   margin-top: 80px;
   margin-bottom: 40px;
-  margin-left: 20px;
+  color: #ed7839;
+  margin-left: 60px;
 }
 .Perfil {
   background: #fdf1eb;
   height: 1px;
-  padding: 0px 200px 110px 60px;
+  padding: 0px 200px 110px 0px;
   text-align: right;
 }
 .left-menu {
@@ -106,10 +109,10 @@
 .subMenu-left h2 {
   //DETALHES
   margin-left: 20px;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 900;
   line-height: 25px;
-  letter-spacing: 0.6em;
+  letter-spacing: 0.4em;
   text-align: left;
   margin-top: 10px;
 }
@@ -124,6 +127,7 @@
   margin-top: 30px;
 }
 .box {
+  //BOX-> resumo DETALHES
   width: 430px;
   height: 290px;
   border-radius: 5px;
@@ -131,6 +135,7 @@
   background-color: aliceblue;
   text-align: left;
   padding: 5px;
+  box-shadow: 10px 10px 10px 8px rgba(0, 0, 0, 0.388);
 
   overflow-y: scroll;
 }

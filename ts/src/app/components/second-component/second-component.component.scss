@@ -1,3 +1,92 @@
 .space {
   margin-top: 90px;
 }
+.text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1300px;
+  margin-left: 350px;
+  margin-right: 1500px;
+  background-color: aliceblue;
+  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.388);
+}
+.content {
+  height: auto;
+
+  border-radius: 5px;
+}
+.content p {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 15px;
+  margin: 20px;
+}
+.card h2 {
+  background-color: #fdf1eb;
+
+  padding-top: 20px;
+  font-weight: 500px;
+  font-size: 30px;
+  letter-spacing: 0.4em;
+  padding-left: 20px;
+}
+.content button {
+  background-color: aliceblue;
+  margin-left: 15px;
+  border: none;
+  color: orange;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  font-size: 15px;
+}
+.space {
+  margin-bottom: 100px;
+}
+//seconda parte, topicos e afins
+
+.topics {
+  width: 1300px;
+  margin: 0 1500px 100px 350px;
+  background-color: aliceblue;
+  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.388);
+}
+.Discussion h3 {
+  margin-left: 250px;
+  padding: 40px 30px 0px 160px;
+  display: flex;
+  color: #ed7839;
+}
+.topics h2 {
+  padding: 20px 10px 10px 20px;
+  background-color: #fdf1eb;
+}
+.Discussion img {
+  margin-left: 250px;
+  //     top  right bottom left
+  padding: 20px 30px 0px 240px;
+  display: flex;
+}
+.Discussion p {
+  padding: 20px 30px 40px 140px;
+  font-size: 15px;
+}
+//button
+.topic-button {
+  background: linear-gradient(180deg, #feb254 0%, #f0813d 100%);
+  color: #fdf1eb;
+  width: 130px;
+  height: 40px;
+  font-size: larger;
+  border-radius: 3px;
+  margin-left: 530px;
+}
+.topics1 {
+  padding-top: 100px;
+  align-items: center;
+}
